@@ -1,0 +1,14 @@
+cabal-version:      2.4
+name:               lisp
+version:            0.1.0.0
+maintainer:         serxka@protonmail.com
+author:             serxka
+
+executable wyasi48h
+    main-is:          Main.hs
+    hs-source-dirs:   src
+    default-language: Haskell2010
+    build-depends:
+        base ^>=4.14.1.0,
+        parsec ^>=3.1.15.0,
+        mtl ^>=2.2.2
